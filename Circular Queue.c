@@ -1,7 +1,7 @@
 /*
-		-------------CIRCULAR QUEUE------------------------------
-
+   ----------------------------------------------------------------CIRCULAR QUEUE PROGRAM--------------------------------------------------------------------
 */
+
 #include<stdlib.h>
 int a[5],f=0,r=-1,k,c=0;
 main()
@@ -9,12 +9,12 @@ main()
 	int d;
 	while(1)
 	{
-		puts("Main Menu of Queue");
-		puts("Press 1: insert");
-		puts("Press 2: delete");
-		puts("Press 3: list");
-		puts("Press 4: exit");
-		puts("Enter Your choice");
+		puts("\n**********Main Queue menu***********");
+		puts("Press 1: for insert");
+		puts("Press 2: for delete");
+		puts("Press 3: for display");
+		puts("Press 4: for exit");
+		puts("Enter your choice");
 		scanf("%d",&d);
 		switch(d)
 		{
@@ -22,10 +22,10 @@ main()
 					break;
 			case 2: del();
 					break;
-			case 3: list();
+			case 3: display();
 					break;
 			case 4: exit(0);
-			default: puts("Invalid choice !");						
+			default: puts("Ivalid choice !");						
 		}
 	}
 	getch();
@@ -41,13 +41,12 @@ insert()
 		puts("Queue is full");
 		r=k;
 	}
-	
 	else
-		{
-			puts("Enter the new element");
-			scanf("%d",&a[r]);
-			c++;
-		}
+	{
+		puts("Enter the element ");
+		scanf("%d",&a[r]);
+		c++;
+	}
 }
 
 del()
@@ -66,12 +65,14 @@ del()
 	}
 }
 
-list()
+display()
 {
 	int i;
-	puts("Elements of Queue");
-	for(i=f;i<=r;i++)
-	{
-		printf("\n%d",a[i]);
-	}
+	i=f;
+	do
+	{ 
+	 printf("\n%d",a[i]);
+	 i++;
+	 i=i%5;
+	}while(i!=f);
 }
