@@ -1,0 +1,24 @@
+ ---------------------------DATA STRUCTURE----------------------------
+
+                          
+                               INDEX
+=====================================================================
+
+1. Binary Tree
+2. 2- Tree or Extended Binary Tree
+3. Threaded Binary Tree
+4. Expression Tree
+5. Binary Search Tree/
+6. AVL Tree.
+7. Balance Tree(B - Tree).
+8. Heap tree.
+9. Forest Tree or Genreal Tree.
+=====================================================================
+
+Qns. What is Tree ?
+Ans. Tree is non-linear data structure which have first node as root node
+     and that root node must have parent node however , that root node can
+     can have 'n' number of child nodes, that child nodes can ve a parent 
+     also.
+
+ 
