@@ -4,8 +4,8 @@
                                INDEX
 =====================================================================
 
-1. Binary Tree
-2. 2- Tree or Extended Binary Tree
+1. Binary Tree   ✅
+2. 2- Tree or Extended Binary Tree   ✅
 3. Threaded Binary Tree
 4. Expression Tree
 5. Binary Search Tree/
