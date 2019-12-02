@@ -72,6 +72,7 @@ Left_list()
 	printf("\n%d",a[i]);
 }
 
+
 Right_push()
 {
 	etop--;
