@@ -1,4 +1,11 @@
-int a[5],top=-1,etop=5;
+#include<stdio.h>
+#include<conio.h>
+#include<stdlib.h>
+
+
+
+#define size 5
+int a[5],top=-1,etop=5; //stack
 main()
 {
 	int d;
